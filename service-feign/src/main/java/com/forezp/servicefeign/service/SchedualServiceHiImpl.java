@@ -4,18 +4,17 @@ import com.forezp.servicefeign.interfaces.SchedualServiceHi;
 import org.springframework.stereotype.Component;
 
 /**
- * @ClassName SchedualServiceHiService
+ * @ClassName SchedualServiceHiImpl
  * @Description TODO
  * @Author zmd
- * @Date 2019/9/18 15:57
+ * @Date 2019/9/19 9:58
  * Version 1.0
  **/
 
 @Component
-public class SchedualServiceHiService  implements SchedualServiceHi{
-
+public class SchedualServiceHiImpl implements SchedualServiceHi {
     @Override
     public String sayHiFromClientOne(String name) {
-        return "sorry "+name+" ,The Service don't get response";
+        return "sorry "+name;
     }
 }
