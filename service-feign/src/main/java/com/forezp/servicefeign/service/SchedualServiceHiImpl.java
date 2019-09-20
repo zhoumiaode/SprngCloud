@@ -15,6 +15,6 @@ import org.springframework.stereotype.Component;
 public class SchedualServiceHiImpl implements SchedualServiceHi {
     @Override
     public String sayHiFromClientOne(String name) {
-        return "sorry "+name;
+        return "sorry !!!";
     }
 }

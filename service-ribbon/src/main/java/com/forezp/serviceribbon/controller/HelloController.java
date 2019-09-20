@@ -29,4 +29,9 @@ public class HelloController {
     public String his(){
         return "123";
     }
+
+    @GetMapping(value = "/zuul")
+    public String zuul(){
+        return "this is a zuul ribbon";
+    }
 }

@@ -23,4 +23,9 @@ public class HiController {
     public String sayHi(@RequestParam String name) {
         return schedualServiceHi.sayHiFromClientOne( name );
     }
+
+    @GetMapping(value = "/zuul")
+    public String zuul(){
+        return "this is a zuul feign";
+    }
 }
